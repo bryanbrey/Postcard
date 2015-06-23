@@ -94,6 +94,15 @@
                                     <rect key="frame" x="250" y="193" width="100" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQF-MP-aok">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="193" width="226" height="37"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -102,6 +111,7 @@
                                 <exclude reference="ufy-pB-22Y"/>
                                 <exclude reference="PON-0b-cQE"/>
                                 <exclude reference="EZO-pg-cE1"/>
+                                <exclude reference="bQF-MP-aok"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -110,6 +120,7 @@
                                 <include reference="ufy-pB-22Y"/>
                                 <include reference="PON-0b-cQE"/>
                                 <include reference="EZO-pg-cE1"/>
+                                <include reference="bQF-MP-aok"/>
                             </mask>
                         </variation>
                     </view>
@@ -118,6 +129,7 @@
                         <outlet property="EnterNameTextField" destination="73R-9M-vtd" id="wfH-o4-7xY"/>
                         <outlet property="mailButton" destination="PON-0b-cQE" id="qHM-9u-ofH"/>
                         <outlet property="messagelabel" destination="EZO-pg-cE1" id="jtb-Cy-gEd"/>
+                        <outlet property="nameLabel" destination="bQF-MP-aok" id="g2M-4l-V2B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
